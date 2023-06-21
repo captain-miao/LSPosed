@@ -1,3 +1,7 @@
+-keep class io.github.libxposed.api.** {*;}
+-keep interface io.github.libxposed.api.** { *; }
+-keepclassmembers class io.github.libxposed.api.** { *; }
+
 -keep class org.lsposed.manager.Constants {
     public static boolean setBinder(android.os.IBinder);
 }
